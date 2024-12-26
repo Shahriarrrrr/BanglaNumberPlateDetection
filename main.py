@@ -6,11 +6,12 @@ from banglaProcessing import process_plate_region
 
 # Load the YOLO model
 license_plate_detector = YOLO('licensePlatemodel/best (1).pt')
-
+coco_model = YOLO('yolov8n.pt')
 
 
 
 def main():
+
     image_path = "assets/premio.jpeg"
     image = cv2.imread(image_path)
 
