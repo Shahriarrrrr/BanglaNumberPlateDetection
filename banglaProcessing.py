@@ -5,10 +5,12 @@ import matplotlib.pyplot as plt
 import imutils
 import easyocr
 import re
-
+import csv,json
+from datetime import datetime
+import os
 
 def standardize_text(text):
-    """Standardize the license plate text format."""
+    """Standardize the license plate text format and update JSON file with new entries."""
     try:
         # Split by space to separate city name from the rest
         parts = text.split(' ')
@@ -29,6 +31,31 @@ def standardize_text(text):
 
             # Create standardized text with মেট্রো and original letter
             standardized = f"{city_name} মেট্রো-{letter_after_hyphen} {number_part}"
+
+            # Prepare the new entry
+            new_entry = {
+                "location": "NotunBazar",
+                "number": standardized,
+                "datetime": f"{datetime.now()}"
+            }
+
+            # Check if the file exists
+            file_path = 'data.json'
+            if os.path.exists(file_path):
+                # Load existing data
+                with open(file_path, 'r', encoding='utf-8') as json_file:
+                    existing_data = json.load(json_file)
+            else:
+                # Start with an empty list if the file doesn't exist
+                existing_data = []
+
+            # Append the new entry
+            existing_data.append(new_entry)
+
+            # Save the updated data back to the file
+            with open(file_path, 'w', encoding='utf-8') as json_file:
+                json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
+
             return standardized
     except Exception as e:
         return f"Error processing text: {e}"
@@ -71,11 +98,11 @@ def process_plate_region(image, results):
                 'bbox': (x1, y1, x2, y2)
             })
 
-            # Display the processed plate region (optional)
-            plt.figure(figsize=(10, 5))
-            plt.imshow(cv2.cvtColor(plate_region, cv2.COLOR_BGR2RGB))
-            plt.title('Detected Plate')
-            plt.axis('off')
-            plt.show()
+            # # Display the processed plate region (optional)
+            # plt.figure(figsize=(10, 5))
+            # plt.imshow(cv2.cvtColor(plate_region, cv2.COLOR_BGR2RGB))
+            # plt.title('Detected Plate')
+            # plt.axis('off')
+            # plt.show()
 
     return plates_text
