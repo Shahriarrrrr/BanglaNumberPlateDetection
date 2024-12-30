@@ -43,12 +43,19 @@ def save_to_json(standardized_text):
 
 
 def standardize_text(text):
-    """Standardize the license plate text format"""
+    """Standardize the license plate text format."""
+    print(text)
     try:
         parts = text.split(' ')
 
         if len(parts) >= 2:
+            # Replace "চ" with "চট্ট" and "ঢ" with "ঢাকা"
             city_name = parts[0]
+            if city_name == "চ":
+                city_name = "চট্ট"
+            elif city_name == "ঢ":
+                city_name = "ঢাকা"
+
             number_part = parts[-1]
 
             middle_part = parts[1] if len(parts) > 1 else ""
@@ -56,21 +63,26 @@ def standardize_text(text):
             if '-' in middle_part:
                 letter_after_hyphen = middle_part.split('-')[-1]
 
-            if len(number_part) >= 3:
-                number_part = f"{number_part[:2]}-{number_part[3:]}"
+            # Format the number part
+            if len(number_part) >= 6:  # Ensure there are enough digits
+                number_part = f"{number_part[:2]}-{number_part[2:]}"
 
+            # Construct the standardized text
             standardized = f"{city_name} মেট্রো-{letter_after_hyphen} {number_part}"
 
             # Directly save to JSON
             save_to_json(standardized)
 
             return standardized
+        else:
+            return "Error: Input text format is invalid."
+
     except Exception as e:
         return f"Error processing text: {e}"
 
-
 def process_plate_region(image, results):
     """Extract and read text from detected license plates"""
+    print(results)
     reader = easyocr.Reader(['bn'])
     plates_text = []
 

@@ -104,7 +104,7 @@ coco_model = YOLO('yolov8n.pt')
 license_plate_detector = YOLO('licensePlatemodel/best (1).pt')
 
 # Initialize video capture
-cap = cv2.VideoCapture('assets/closeup2.mp4')
+cap = cv2.VideoCapture('assets/10tola2.mp4')
 
 # Check if video file is opened successfully
 if not cap.isOpened():
@@ -118,7 +118,7 @@ fps = int(cap.get(cv2.CAP_PROP_FPS))
 
 # Output video writer
 output_video = cv2.VideoWriter(
-    'output/video/Skippedcloseup2.mp4',
+    'output/video/10tola2.mp4',
     cv2.VideoWriter_fourcc(*'mp4v'),
     fps,
     (width, height)
