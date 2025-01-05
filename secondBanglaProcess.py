@@ -10,6 +10,7 @@ import json
 from datetime import datetime
 import os
 import difflib
+from dbConnect import vatara
 
 
 def save_to_json(standardized_text):

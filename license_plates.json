@@ -1,222 +1,166 @@
 [
     {
-        "timestamp": "2024-12-28T20:28:47.198019",
+        "timestamp": "2024-12-31T00:51:17.127573",
+        "area_bangla": "ঢাকা মেট্রো-গ",
+        "area_english": "Dhaka Metro-G",
+        "number_bangla": "২০-০১১৬",
+        "number_english": "20-0116",
+        "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
+    },
+    {
+        "timestamp": "2024-12-31T00:51:26.019732",
+        "area_bangla": "ঢাকা মেট্রো-গ",
+        "area_english": "Dhaka Metro-G",
+        "number_bangla": "২০-০১১৬",
+        "number_english": "20-0116",
+        "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
+    },
+    {
+        "timestamp": "2024-12-31T00:54:58.327961",
+        "area_bangla": "ঢাকা মেট্রো-গ",
+        "area_english": "Dhaka Metro-G",
+        "number_bangla": "২০-০১১৬",
+        "number_english": "20-0116",
+        "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
+    },
+    {
+        "timestamp": "2025-01-05T14:28:10.125176",
         "area_bangla": "ঢাকা মেট্রো-হ",
         "area_english": "Dhaka Metro-H",
-        "number_bangla": "২২-৬৪৫৭",
-        "number_english": "22-6457",
-        "original_text": "ঢাকা শেদ্রেো ২২-৬৪৫৭"
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাকা মেড্রেো ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:28:57.943846",
+        "timestamp": "2025-01-05T14:28:26.499666",
         "area_bangla": "ঢাকা মেট্রো-হ",
         "area_english": "Dhaka Metro-H",
-        "number_bangla": "২২-৬৪৫৭",
-        "number_english": "22-6457",
-        "original_text": "ঢাকা মেদরেী ২২-৬৪৫৭"
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাকা মেডরেী: ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:29:08.996984",
+        "timestamp": "2025-01-05T14:28:38.245831",
         "area_bangla": "ঢাকা মেট্রো-হ",
         "area_english": "Dhaka Metro-H",
-        "number_bangla": "২২-৬৪৫৭",
-        "number_english": "22-6457",
-        "original_text": "ঢাকা শেদ্রেো ২২-৬৪৫৭"
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাকা মেন্ট্রী ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:29:55.497416",
-        "area_bangla": "ঢাকা-ম",
-        "area_english": "Dhaka-M",
-        "number_bangla": "২২-৬৪৫৭",
-        "number_english": "22-6457",
-        "original_text": "ঢাকা মদ] ২২ ৬৪৫৭"
+        "timestamp": "2025-01-05T14:28:43.907364",
+        "area_bangla": "ঢাকা মেট্রো-ন",
+        "area_english": "Dhaka Metro-N",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাকা মেন ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:31:09.697022",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T20:31:16.857246",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T20:31:24.170798",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T20:31:31.136694",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T20:41:06.084987",
+        "timestamp": "2025-01-05T14:28:49.601305",
         "area_bangla": "ঢাকা মেট্রো-হ",
         "area_english": "Dhaka Metro-H",
-        "number_bangla": "৩৫-৮০৩২",
-        "number_english": "35-8032",
-        "original_text": "ঢাক দট্রা ৩৫-৮০৩২"
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাকা মে্ডেো ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:41:11.520193",
+        "timestamp": "2025-01-05T14:28:55.245428",
         "area_bangla": "ঢাকা মেট্রো-হ",
         "area_english": "Dhaka Metro-H",
-        "number_bangla": "৩৫-৮০৩২",
-        "number_english": "35-8032",
-        "original_text": "ঢাকা গ্ট্রী ৩৫-৮০৩২"
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাকা মেন্ডেো ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:41:16.946014",
+        "timestamp": "2025-01-05T14:29:01.034341",
+        "area_bangla": "ঢাকা মেট্রো-ড",
+        "area_english": "Dhaka Metro-D",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাক] মেন্ডে] ৩৭-৫৯৭৪"
+    },
+    {
+        "timestamp": "2025-01-05T14:29:26.753611",
         "area_bangla": "ঢাকা মেট্রো-হ",
         "area_english": "Dhaka Metro-H",
-        "number_bangla": "৩৫-৮০৩২",
-        "number_english": "35-8032",
-        "original_text": "ঢাবাকেট্রা: ৩৫-৮০৩২"
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাঙ] মেনড্রা ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:45:04.072567",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
+        "timestamp": "2025-01-05T14:29:32.900726",
+        "area_bangla": "ঢাকা মেট্রো-হ",
+        "area_english": "Dhaka Metro-H",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাঙা সেট্রো ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:45:12.357799",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
+        "timestamp": "2025-01-05T14:29:39.018169",
+        "area_bangla": "ঢাকা মেট্রো-হ",
+        "area_english": "Dhaka Metro-H",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাঙ মেট্রো ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:45:18.028604",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
+        "timestamp": "2025-01-05T14:29:45.269956",
+        "area_bangla": "ঢাকা মেট্রো-হ",
+        "area_english": "Dhaka Metro-H",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাঙ মেন্ট্রী ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:45:26.841350",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
+        "timestamp": "2025-01-05T14:29:53.801798",
+        "area_bangla": "ঢাকা মেট্রো-হ",
+        "area_english": "Dhaka Metro-H",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাঙ মেন্ট্র: ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:45:33.931088",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
+        "timestamp": "2025-01-05T14:30:02.766139",
+        "area_bangla": "ঢাকা মেট্রো-হ",
+        "area_english": "Dhaka Metro-H",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাঙ মে্ট্রা: ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:45:40.775115",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
+        "timestamp": "2025-01-05T14:30:38.798131",
+        "area_bangla": "ঢাকা মেট্রো-হ",
+        "area_english": "Dhaka Metro-H",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাশা মেনটরী ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:45:47.384239",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
+        "timestamp": "2025-01-05T14:35:39.785190",
+        "area_bangla": "ঢাকা মেট্রো-হ",
+        "area_english": "Dhaka Metro-H",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাকা মেডরেী: ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:45:55.215093",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
+        "timestamp": "2025-01-05T14:35:45.990211",
+        "area_bangla": "ঢাকা মেট্রো-হ",
+        "area_english": "Dhaka Metro-H",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাকা মেন্ট্রী ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:46:00.843766",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
+        "timestamp": "2025-01-05T14:35:52.315895",
+        "area_bangla": "ঢাকা মেট্রো-হ",
+        "area_english": "Dhaka Metro-H",
+        "number_bangla": "৩৭-৫৯৭৪",
+        "number_english": "37-5974",
+        "original_text": "ঢাকা মে্ডেো ৩৭-৫৯৭৪"
     },
     {
-        "timestamp": "2024-12-28T20:46:06.533530",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:46:12.017713",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:52:02.859410",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:52:06.083340",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রোগ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T20:52:11.728386",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:52:14.818649",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রোগ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T20:52:21.041793",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:52:24.140618",
+        "timestamp": "2025-01-05T15:02:10.477422",
         "area_bangla": "ঢাকা মেট্রো-গ",
         "area_english": "Dhaka Metro-G",
         "number_bangla": "২০-০১১৬",
@@ -224,55 +168,7 @@
         "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
     },
     {
-        "timestamp": "2024-12-28T20:52:30.135653",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:56:26.005501",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:56:30.122313",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রোগ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T20:56:36.544472",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:56:40.340160",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রোগ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T20:56:46.987503",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:56:50.838966",
+        "timestamp": "2025-01-05T15:02:18.537779",
         "area_bangla": "ঢাকা মেট্রো-গ",
         "area_english": "Dhaka Metro-G",
         "number_bangla": "২০-০১১৬",
@@ -280,163 +176,11 @@
         "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
     },
     {
-        "timestamp": "2024-12-28T20:56:57.430439",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:59:51.488530",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T20:59:55.365651",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রোগ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T21:00:02.029093",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T21:00:06.299869",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রোগ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T21:00:12.835564",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T21:00:16.176437",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T21:00:22.603224",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-C",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T21:00:26.610288",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রোগ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T21:01:55.181222",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-G",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T21:01:58.935978",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রোগ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T21:02:05.827047",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-G",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T21:02:10.032231",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রোগ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T21:02:15.628748",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-G",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T21:02:18.777950",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রো-গ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T21:02:24.594757",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-G",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-28T21:02:28.077622",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "২০-০১১৬",
-        "number_english": "20-0116",
-        "original_text": "ঢাকা মেট্রোগ ২০-০১১৬"
-    },
-    {
-        "timestamp": "2024-12-28T21:02:33.592744",
-        "area_bangla": "চট্র মেট্রো-গ",
-        "area_english": "Chittor Metro-G",
-        "number_bangla": "১১-৭২৮৮",
-        "number_english": "11-7288",
-        "original_text": "চট্ট মেট্রো গ ১১-৭২৮৮"
-    },
-    {
-        "timestamp": "2024-12-30T20:15:22.672499",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "১৫-০৫৬৮",
-        "number_english": "15-0568",
-        "original_text": "ঢাকা মেট্রো-গ ১৫-০৫৬৮"
-    },
-    {
-        "timestamp": "2024-12-30T20:15:34.267803",
-        "area_bangla": "ঢাকা মেট্রো-গ",
-        "area_english": "Dhaka Metro-G",
-        "number_bangla": "১৫-০৫৬৮",
-        "number_english": "15-0568",
-        "original_text": "ঢাকা মেট্রো-গ ১৫-০৫৬৮"
+        "timestamp": "2025-01-05T15:14:58.832315",
+        "area_bangla": "চুয়াডাংগা-ল",
+        "area_english": "Chuadangga-L",
+        "number_bangla": "১২১১৭৭৪",
+        "number_english": "1211774",
+        "original_text": "চুয়াডাংগা: ল ১২১১৭৭৪"
     }
 ]
