@@ -176,5 +176,3 @@ cv2.destroyAllWindows()
 # cap.release()
 # output_video.release()
 # #cv2.destroyAllWindows()
-
-
