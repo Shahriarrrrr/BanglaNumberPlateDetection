@@ -14,6 +14,19 @@ my_client = AsyncIOMotorClient(uri)
 # Access the database and collection
 db = my_client.DhakaTraffic
 vatara = db["Vatara"]
+culprit = db["Culprit"]
+
+
+# async def insert(data):
+#     insertion = await culprit.insert_one(data)
+#     print(insertion.acknowledged)
+#
+#
+# asyncio.run(insert({"Charges": "Murder","area_english": "Dhaka Metro-H", "number_english": "22-6457"}))
+
+
+
+
 # router = APIRouter()
 # @router.post("/create/create_record")
 # async def create_record(data):

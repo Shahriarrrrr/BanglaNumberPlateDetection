@@ -6,6 +6,23 @@ from datetime import datetime
 import difflib
 import easyocr
 from translate import Translator
+import asyncio
+from motor.motor_asyncio import AsyncIOMotorClient
+from fastapi import FastAPI, HTTPException
+
+# DATABASE
+app = FastAPI()
+
+# MongoDB URI
+uri = "mongodb+srv://admin:admin@cluster0.evtt2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+# Initialize MongoDB client
+my_client = AsyncIOMotorClient(uri)
+
+# Access the database and collection
+db = my_client.DhakaTraffic
+vatara = db["Vatara"]
+culprit = db["Culprit"]
 
 # Initialize translator
 translator = Translator(from_lang="bn", to_lang="en")
@@ -28,6 +45,7 @@ area_dictionary = [f'{w}-{c}' for w in words for c in vclass]
 # Bangla numerals set
 nums = set('০১২৩৪৫৬৭৮৯')
 
+
 def transliterate(text):
     """Transliterate Bangla text into English."""
     if not text.strip():
@@ -40,12 +58,48 @@ def transliterate(text):
         print(f"Error in transliteration: {e} for text: {text}")
         return text  # Fallback to original text
 
+
 def is_valid_license(area, number):
     """Check if the area and number contain only valid characters."""
     allowed_chars = set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789- ")
     return all(c in allowed_chars for c in area + number)
 
+
+#Find Culprit
+async def find_culprit(area_english: str, number_english: str):
+    """
+    Function to find a culprit by area_english and number_english.
+    Args:
+        area_english (str): English area name to match.
+        number_english (str): English license plate number to match.
+    Returns:
+        dict: The matched culprit document, or raises an exception if not found.
+    """
+    try:
+        query = {
+            "area_english": area_english,
+            "number_english": number_english
+        }
+        result = await culprit.find_one(query)
+
+        if result:
+            print("Culprit Detected")
+        else:
+            raise HTTPException(status_code=404, detail="No match found for the given license plate.")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error while searching: {e}")
+
+async def insert_to_db(data):
+    """Insert data into MongoDB asynchronously."""
+    try:
+        result = await vatara.insert_one(data)
+        print(f"Data inserted with ID: {result.inserted_id}")
+    except Exception as e:
+        print(f"Error inserting into database: {e}")
+
+
 def extract_license_text(text, speed):
+    """Extract and validate license text from OCR result."""
     print(text)
     result = text.strip()
     area = ""
@@ -99,39 +153,21 @@ def extract_license_text(text, speed):
         "speed": round(speed, 2)
     }
 
-    # Save to JSON file
+    # Add to database using event loop
     try:
-        # Read existing data if file exists
-        try:
-            with open('license_plates.json', 'r', encoding='utf-8') as f:
-                existing_data = json.load(f)
-                if not isinstance(existing_data, list):
-                    existing_data = [existing_data]
-        except (FileNotFoundError, json.JSONDecodeError):
-            existing_data = []
-
-        # Append new data
-        existing_data.append(license_data)
-
-        # Write back to file with all data
-        with open('license_plates.json', 'w', encoding='utf-8') as f:
-            json.dump(existing_data, f, ensure_ascii=False, indent=4)
-
+        loop = asyncio.get_event_loop()
+        loop.run_until_complete(find_culprit(license_data["area_english"], license_data["number_english"]))
+        loop.run_until_complete(insert_to_db(license_data))
+    except RuntimeError as e:
+        print(f"Event loop error: {e}")
     except Exception as e:
-        print(f"Error saving to JSON file: {e}")
+        print(f"Error saving to database: {e}")
 
     return area_english, number_english
 
+
 def process_plate_region(image, results, speed, reader=None):
-    """
-    Extract and read text from detected license plates
-    Args:
-        image: Input image
-        results: Detection results
-        reader: EasyOCR reader instance (optional)
-    Returns:
-        List of dictionaries containing plate information
-    """
+    """Process detected license plate regions."""
     if reader is None:
         reader = easyocr.Reader(['bn'])
 
